@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+td{
+  
+}
+
+.table, .cap_table, .cap_table_user_in, .block_table, .main_table{
+   border: 0px double ; /*TODO delete*/
+   border-spacing:0;
+   margin:0px;
+}
+
+.main_table{
+	width: 100%;
+	height: 100%;
+}
+
+.empty_space{
+  width:20%;
+  background: #f0f0f0;  
+}
+
+.cap_table{
+  background: #e0e0f0;
+  vertical-align:top;
+}
+
+.cap_down_cell{
+
+}
+.cap_down_link{
+   
+}
+
+.cap_profile_link{
+width:30%;
+}
+
+.cap_logo{
+  margin:15px;
+  width:30%;
+}
+
+.cap_search{
+width:10%;
+}
+
+.cap_user_in{
+  border:0;
+  border-spacing:0;
+  margin: 15px;
+  display:inline-block;
+  background: #f0F0F0;  
+  border-radius: 10px;
+}
+
+.cap_table_user_in{
+  margin:10px;   
+}
+
+.block_div{
+	margin: 2.5%;
+	background: linear-gradient(to right, #eeeeee, #aaaaaa);
+	-webkit-border-radius: 20px;
+	-webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+	
+}
+
+.block_table{
+  margin: 2.5%;
+  width: 95%;
+  border:1px double black;
+  border-collapse: collapse;
+  -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    -ms-transform: skew(-20deg)
+}
+
+.block_date{
+  color: #555555; 
+  font-weight: 600; 
+  font-size:90%;
+}
+
+.block_name{
+  color: #555555; 
+  font-weight: 600; 
+  font-size:90%;  
+}
+
+.block_author{
+  font-size: small;
+}
+
+.footer{
+  background: #FFFFFF;
+  height: 1%;
+  text-align: center;
+}
